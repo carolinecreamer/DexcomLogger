@@ -1,0 +1,2 @@
+github "OAuthSwift/OAuthSwift" "1.4.1"
+github "openid/AppAuth-iOS" "c63e3926c5f141db43a7d02e8c24af3463479f7b"

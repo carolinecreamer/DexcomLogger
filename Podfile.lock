@@ -1,0 +1,32 @@
+PODS:
+  - AeroGearHttp (2.0.0)
+  - AeroGearOAuth2 (2.1.0):
+    - AeroGearHttp (= 2.0.0)
+  - AppAuth (1.3.1):
+    - AppAuth/Core (= 1.3.1)
+    - AppAuth/ExternalUserAgent (= 1.3.1)
+  - AppAuth/Core (1.3.1)
+  - AppAuth/ExternalUserAgent (1.3.1)
+  - OAuthSwift (2.1.0)
+
+DEPENDENCIES:
+  - AeroGearOAuth2
+  - AppAuth
+  - OAuthSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AeroGearHttp
+    - AeroGearOAuth2
+    - AppAuth
+    - OAuthSwift
+
+SPEC CHECKSUMS:
+  AeroGearHttp: 65bf374aefd3521e1d8d33547e4db96047b745aa
+  AeroGearOAuth2: 4d14442db32625602fb2371f4739360801a1a260
+  AppAuth: 8803ba1aec6d00d9afd30093f82e600307eaa6ea
+  OAuthSwift: ab1675598273e04355e0282459c328e65c9ddacd
+
+PODFILE CHECKSUM: 38288d32086cdae672f19016509e97ca3300577b
+
+COCOAPODS: 1.9.2
