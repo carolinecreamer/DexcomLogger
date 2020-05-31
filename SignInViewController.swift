@@ -45,6 +45,7 @@ class SignInViewController: UIViewController, ASWebAuthenticationPresentationCon
     @available(iOS 13.0, *)
     func authorizeDexcom(context: ASWebAuthenticationPresentationContextProviding) {
         print("started")
+        oauthswift.allowMissingStateCheck = true
         
       //  oauthswift.authorizeURLHandler = SafariURLHandler(viewController: self, oauthSwift: oauthswift)
         
