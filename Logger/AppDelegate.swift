@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      open url: URL,
                      options: [UIApplicationOpenURLOptionsKey : Any] = [:] ) -> Bool {
-        
+        OAuthSwift.handle(url: url)
         // Determine who sent the URL.
         let sendingAppID = options[.sourceApplication]
         print("source application = \(sendingAppID ?? "Unknown")")
